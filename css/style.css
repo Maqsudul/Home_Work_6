@@ -1,0 +1,66 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #dfe6e9;
+}
+.container{
+	width: 80%;
+	height: auto;	
+	margin: 0 auto;
+}
+h2{
+	margin: 0;
+	text-align: center;
+	font-family: verdana;
+}
+.logo, .nav, .header, .sidebar, .content, .footer{
+	background-color: #b2bec3;
+}
+.logo h2{
+	padding: 45px;
+}
+.nav h2{
+	padding: 15px;
+}
+.header h2{
+	padding: 135px;
+}
+.sidebar h2{
+	padding: 300px 0;
+}
+.content h2 {
+	padding: 300px;
+}
+.footer h2{
+	padding: 40px
+}
+.logo{
+	height: 120px;
+	margin-bottom: 15px;
+}
+.nav{
+	height:60px;
+	margin-bottom: 15px;
+}
+.header{
+	height:300px;
+	margin-bottom: 15px;
+}
+.main{
+	height:600px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.sidebar{
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+.content{
+    width: 69%;
+    height: 600px;
+    float: right;
+}
+.footer{
+	height: 100px;
+}
